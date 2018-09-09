@@ -4,7 +4,7 @@
   "description": "Auth components for React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard \"components/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/tleef/react-auth#readme",
   "dependencies": {
     "react": "^16.4.2"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
   }
 }

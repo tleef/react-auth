@@ -41,6 +41,6 @@ export default class AuthComponent extends React.Component {
       msg = JSON.stringify(err)
     }
 
-    this.setState({error: msg})
+    this.setState({ error: msg })
   }
 }
