@@ -1,13 +1,10 @@
 import React from 'react'
 
-import AuthService from '../../services/AuthService'
-
 export default class AuthComponent extends React.Component {
   constructor (validAuthStates, props) {
     super(props)
 
     this.validAuthStates = validAuthStates
-    this.authService = new AuthService()
 
     this.changeState = this.changeState.bind(this)
     this.error = this.error.bind(this)
